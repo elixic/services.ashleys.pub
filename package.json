@@ -1,0 +1,16 @@
+{
+    "name": "pub-services",
+    "version": "0.0.1",
+    "description": "Services for the pub website",
+    "license": "Apache",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/elixic/services.ashleys.pub.git"
+    },
+    "author": "Isaac Flemming",
+    "homepage": "http://ashleys.pub",
+    "dependencies": {
+        "express": "^4.12.0",
+        "bluebird": "^2.9.13"
+    }
+}
