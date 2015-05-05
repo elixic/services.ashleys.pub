@@ -4,7 +4,7 @@ var gulp = require('gulp'),
     jshint = require('gulp-jshint'),
     del = require('del'),
 
-    APP_SRC = ['src/**/*'],
+    APP_SRC = ['app/**/*'],
     ALL_SRC = APP_SRC.concat('*.js');
 
 gulp.task('lint', function() {
@@ -18,6 +18,6 @@ gulp.task('clean', function() {
 });
 
 gulp.task('default', ['lint'], function() {
-    gulp.src(ALL_SRC)
-        .pipe(gulp.dest('build'));
+    //gulp.src(ALL_SRC)
+    //    .pipe(gulp.dest('build'));
 });

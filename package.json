@@ -17,5 +17,8 @@
         "gulp": "^3.8.11",
         "gulp-jshint": "^1.9.2",
         "del": "^1.1.1"
+    },
+    "scripts": {
+        "start": "node app.js"
     }
 }
