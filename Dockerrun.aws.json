@@ -1,0 +1,6 @@
+{
+    "AWSDockerRunVersion": "1",
+    "Ports": {
+        "ContainerPort": "9001"
+    }
+}
