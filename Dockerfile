@@ -8,11 +8,8 @@ USER node
 ENV HOME /home/node
 WORKDIR /home/node/app
 
-RUN npm install -dd && gulp
+RUN npm install -dd && gulp && rm -rf node_modules && npm install -dd --production
 
 CMD ["npm", "start"]
 
 EXPOSE 9001
-
-
-
