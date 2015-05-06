@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs-bower-gulp
+FROM neo9polska/nodejs-bower-gulp
 
 RUN useradd -ms /bin/bash node
 COPY . /home/node/app
