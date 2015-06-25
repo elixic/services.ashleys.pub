@@ -4,6 +4,5 @@
         {
             "ContainerPort": "9001"
         }
-    ],
-    "Logging": "/var/log/services"
+    ]
 }
